@@ -8,7 +8,7 @@ class Sciclaw < Formula
   depends_on "go" => :build
 
   def install
-    ldflags = "-s -w -X main.version=v#{version}"
+    ldflags = "-s -w -X main.version=#{version}"
     system "go", "build", *std_go_args(output: bin/"sciclaw", ldflags: ldflags), "./cmd/picoclaw"
     (bin/"picoclaw").make_symlink bin/"sciclaw"
     pkgshare.install "skills"

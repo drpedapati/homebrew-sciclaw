@@ -1,7 +1,7 @@
 class Sciclaw < Formula
   desc "Autonomous paired scientist CLI forked from PicoClaw"
   homepage "https://github.com/drpedapati/sciclaw"
-  url "https://github.com/drpedapati/sciclaw.git", using: :git, tag: "v0.1.5", revision: "3f297d6f33494e8678180a7413f67bd624f7439c"
+  url "https://github.com/drpedapati/sciclaw.git", using: :git, tag: "v0.1.5", revision: "70dc430caa32b4a1d29bb313f2aac7c57da5bfcb"
   license "MIT"
   version "0.1.5"
 
